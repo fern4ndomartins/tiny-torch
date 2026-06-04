@@ -41,6 +41,12 @@ cmake_ninja_workdir = /home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/
 
 build Shaders: phony CMakeFiles/Shaders shaders/shader_comp.spv
 
+
+#############################################
+# Utility command for GenerateStubs
+
+build GenerateStubs: phony CMakeFiles/GenerateStubs modd.cpython-314-x86_64-linux-gnu.so
+
 # =============================================================================
 # Object build statements for MODULE_LIBRARY target modd
 
@@ -197,6 +203,14 @@ build shaders/shader_comp.spv | ${cmake_ninja_workdir}shaders/shader_comp.spv: C
   DESC = Compiling shader: shader.comp
   restat = 1
 
+
+#############################################
+# Custom command for CMakeFiles/GenerateStubs
+
+build CMakeFiles/GenerateStubs | ${cmake_ninja_workdir}CMakeFiles/GenerateStubs: CUSTOM_COMMAND modd.cpython-314-x86_64-linux-gnu.so || Shaders modd.cpython-314-x86_64-linux-gnu.so
+  COMMAND = cd /home/g0uvea/dev/vulkan/tiny-torch/testing-out/build && /usr/bin/cmake -E env PYTHONPATH=/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build /home/g0uvea/dev/vulkan/tiny-torch/venv/bin/python3.14 -m pybind11_stubgen modd -o /home/g0uvea/dev/vulkan/tiny-torch/testing-out/typings
+  DESC = Generating pybind11 stubs for modd
+
 # =============================================================================
 # Target aliases.
 
@@ -210,7 +224,7 @@ build modd: phony modd.cpython-314-x86_64-linux-gnu.so
 #############################################
 # Folder: /home/g0uvea/dev/vulkan/tiny-torch/testing-out/build
 
-build all: phony Shaders modd.cpython-314-x86_64-linux-gnu.so
+build all: phony Shaders GenerateStubs modd.cpython-314-x86_64-linux-gnu.so
 
 # =============================================================================
 # Built-in targets

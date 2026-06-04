@@ -8,6 +8,13 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 find_package(glfw3 REQUIRED)
 find_package(Vulkan REQUIRED)
 find_package(Python COMPONENTS Interpreter Development REQUIRED)
+
+execute_process(
+    COMMAND ${Python_EXECUTABLE} -c "import pybind11; print(pybind11.get_cmake_dir())"
+    OUTPUT_VARIABLE PYBIND11_CMAKE_DIR
+    OUTPUT_STRIP_TRAILING_WHITESPACE
+)
+set(pybind11_DIR ${PYBIND11_CMAKE_DIR})
 find_package(pybind11 CONFIG REQUIRED)
 
 # Find glslc (Vulkan shader compiler)
@@ -46,6 +53,14 @@ endforeach()
 
 # Custom target that triggers shader compilation
 add_custom_target(Shaders ALL DEPENDS ${SPIRV_BINARY_FILES})
+
+add_custom_target(GenerateStubs ALL
+    COMMAND ${CMAKE_COMMAND} -E env PYTHONPATH=${CMAKE_BINARY_DIR}
+        ${Python_EXECUTABLE} -m pybind11_stubgen modd -o ${CMAKE_SOURCE_DIR}/typings
+    WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
+    DEPENDS modd
+    COMMENT "Generating pybind11 stubs for modd"
+)
 
 # Create the Python module
 pybind11_add_module(modd MODULE src/modd.cc

@@ -49,6 +49,9 @@ int main() {
 PYBIND11_MODULE(modd, m) {
     m.doc() = "pybind11 example module";
 
-    m.def("spec", &main, "A special function");
+    m.def("spec", &main, "A special function,,");
+
+    // m.def("subtract", &subtract, "A function that subtracts two numbers",
+    //       pybind11::arg("a"), pybind11::arg("b"));
 
 }

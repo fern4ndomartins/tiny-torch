@@ -5,5 +5,5 @@ from __future__ import annotations
 __all__: list[str] = ['spec']
 def spec() -> int:
     """
-    A special function
+    A special function,,
     """

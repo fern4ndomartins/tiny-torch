@@ -251,9 +251,6 @@ modd_LIB_DEPENDS:STATIC=general;Vulkan::Vulkan;general;glfw;
 //Value Computed by CMake
 modd_SOURCE_DIR:STATIC=/home/g0uvea/dev/vulkan/tiny-torch/testing-out
 
-//The directory containing a CMake configuration file for pybind11.
-pybind11_DIR:PATH=/home/g0uvea/dev/vulkan/tiny-torch/venv/lib64/python3.14/site-packages/pybind11/share/cmake/pybind11
-
 
 ########################
 # INTERNAL cache entries

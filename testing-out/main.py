@@ -1,3 +1,3 @@
 import modd
 
-modd.spec()
+_ = modd.spec()
