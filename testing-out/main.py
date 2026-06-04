@@ -1,0 +1,3 @@
+import modd
+
+modd.spec()

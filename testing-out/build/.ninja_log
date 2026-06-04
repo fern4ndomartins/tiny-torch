@@ -1,0 +1,20 @@
+# ninja log v7
+1	108	1780605649554159477	shaders/shader_comp.spv	8997f79731939456
+1	108	1780605649554159477	/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/shaders/shader_comp.spv	8997f79731939456
+108	1808	1780605649562159434	CMakeFiles/modd.dir/src/modd.cc.o	98b32158efbc856a
+1810	2794	1780605651265269125	modd.cpython-314-x86_64-linux-gnu.so	a119c95a59d0c732
+2	110	1780606055992954695	shaders/shader_comp.spv	8997f79731939456
+2	110	1780606055992954695	/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/shaders/shader_comp.spv	8997f79731939456
+112	251	1780606056003688506	CMakeFiles/modd.dir/src/wsi.cc.o	146781b4c99aff18
+111	316	1780606056003515257	CMakeFiles/modd.dir/src/mem.cc.o	d45ce76b3f474263
+111	349	1780606056003179589	CMakeFiles/modd.dir/src/common.cc.o	d98da85643a4cb96
+111	392	1780606056002824031	CMakeFiles/modd.dir/src/device.cc.o	3cc434a61f24e96b
+111	422	1780606056001954646	CMakeFiles/modd.dir/src/cmb.cc.o	112852997ec5b94c
+111	444	1780606056003348588	CMakeFiles/modd.dir/src/instance.cc.o	f23eb585c0c7f917
+111	479	1780606056003017310	CMakeFiles/modd.dir/src/pipeline.cc.o	67bad8aa33264456
+110	1922	1780606056000954651	CMakeFiles/modd.dir/src/modd.cc.o	98b32158efbc856a
+1922	2930	1780606057812944822	modd.cpython-314-x86_64-linux-gnu.so	e927325e371385e8
+2	266	1780606169787337399	CMakeFiles/modd.dir/src/pipeline.cc.o	67bad8aa33264456
+266	1275	1780606170051372276	modd.cpython-314-x86_64-linux-gnu.so	e927325e371385e8
+2	264	1780606281189733073	CMakeFiles/modd.dir/src/pipeline.cc.o	67bad8aa33264456
+264	1271	1780606281452627277	modd.cpython-314-x86_64-linux-gnu.so	e927325e371385e8

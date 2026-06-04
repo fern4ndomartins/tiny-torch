@@ -1,9 +1,0 @@
-LD_LIBRARY_PATH=~/Vulkan-Loader/build/loader \
-VK_ICD_FILENAMES=~/mesa/build/src/amd/vulkan/radeon_icd.x86_64.json \
-VK_IMPLICIT_LAYER_PATH=~/mesa/build/src/vulkan/device-select-layer \
-VK_INSTANCE_LAYERS=VK_LAYER_MESA_device_select \
-./build/main
-
-
-
-

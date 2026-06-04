@@ -1,0 +1,4 @@
+/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/CMakeFiles/Shaders.dir
+/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/CMakeFiles/modd.dir
+/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/CMakeFiles/edit_cache.dir
+/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build",
+  "command": "/usr/bin/c++ -Dmodd_EXPORTS -isystem /usr/include/python3.14 -isystem /home/g0uvea/dev/vulkan/tiny-torch/venv/lib64/python3.14/site-packages/pybind11/include -std=gnu++17 -fPIC -fvisibility=hidden -flto=auto -fno-fat-lto-objects -o CMakeFiles/modd.dir/src/modd.cc.o -c /home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/modd.cc",
+  "file": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/modd.cc",
+  "output": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/CMakeFiles/modd.dir/src/modd.cc.o"
+},
+{
+  "directory": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build",
+  "command": "/usr/bin/c++ -Dmodd_EXPORTS -isystem /usr/include/python3.14 -isystem /home/g0uvea/dev/vulkan/tiny-torch/venv/lib64/python3.14/site-packages/pybind11/include -std=gnu++17 -fPIC -fvisibility=hidden -flto=auto -fno-fat-lto-objects -o CMakeFiles/modd.dir/src/cmb.cc.o -c /home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/cmb.cc",
+  "file": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/cmb.cc",
+  "output": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/CMakeFiles/modd.dir/src/cmb.cc.o"
+},
+{
+  "directory": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build",
+  "command": "/usr/bin/c++ -Dmodd_EXPORTS -isystem /usr/include/python3.14 -isystem /home/g0uvea/dev/vulkan/tiny-torch/venv/lib64/python3.14/site-packages/pybind11/include -std=gnu++17 -fPIC -fvisibility=hidden -flto=auto -fno-fat-lto-objects -o CMakeFiles/modd.dir/src/device.cc.o -c /home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/device.cc",
+  "file": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/device.cc",
+  "output": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/CMakeFiles/modd.dir/src/device.cc.o"
+},
+{
+  "directory": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build",
+  "command": "/usr/bin/c++ -Dmodd_EXPORTS -isystem /usr/include/python3.14 -isystem /home/g0uvea/dev/vulkan/tiny-torch/venv/lib64/python3.14/site-packages/pybind11/include -std=gnu++17 -fPIC -fvisibility=hidden -flto=auto -fno-fat-lto-objects -o CMakeFiles/modd.dir/src/pipeline.cc.o -c /home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/pipeline.cc",
+  "file": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/pipeline.cc",
+  "output": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/CMakeFiles/modd.dir/src/pipeline.cc.o"
+},
+{
+  "directory": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build",
+  "command": "/usr/bin/c++ -Dmodd_EXPORTS -isystem /usr/include/python3.14 -isystem /home/g0uvea/dev/vulkan/tiny-torch/venv/lib64/python3.14/site-packages/pybind11/include -std=gnu++17 -fPIC -fvisibility=hidden -flto=auto -fno-fat-lto-objects -o CMakeFiles/modd.dir/src/common.cc.o -c /home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/common.cc",
+  "file": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/common.cc",
+  "output": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/CMakeFiles/modd.dir/src/common.cc.o"
+},
+{
+  "directory": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build",
+  "command": "/usr/bin/c++ -Dmodd_EXPORTS -isystem /usr/include/python3.14 -isystem /home/g0uvea/dev/vulkan/tiny-torch/venv/lib64/python3.14/site-packages/pybind11/include -std=gnu++17 -fPIC -fvisibility=hidden -flto=auto -fno-fat-lto-objects -o CMakeFiles/modd.dir/src/instance.cc.o -c /home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/instance.cc",
+  "file": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/instance.cc",
+  "output": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/CMakeFiles/modd.dir/src/instance.cc.o"
+},
+{
+  "directory": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build",
+  "command": "/usr/bin/c++ -Dmodd_EXPORTS -isystem /usr/include/python3.14 -isystem /home/g0uvea/dev/vulkan/tiny-torch/venv/lib64/python3.14/site-packages/pybind11/include -std=gnu++17 -fPIC -fvisibility=hidden -flto=auto -fno-fat-lto-objects -o CMakeFiles/modd.dir/src/mem.cc.o -c /home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/mem.cc",
+  "file": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/mem.cc",
+  "output": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/CMakeFiles/modd.dir/src/mem.cc.o"
+},
+{
+  "directory": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build",
+  "command": "/usr/bin/c++ -Dmodd_EXPORTS -isystem /usr/include/python3.14 -isystem /home/g0uvea/dev/vulkan/tiny-torch/venv/lib64/python3.14/site-packages/pybind11/include -std=gnu++17 -fPIC -fvisibility=hidden -flto=auto -fno-fat-lto-objects -o CMakeFiles/modd.dir/src/wsi.cc.o -c /home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/wsi.cc",
+  "file": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/src/wsi.cc",
+  "output": "/home/g0uvea/dev/vulkan/tiny-torch/testing-out/build/CMakeFiles/modd.dir/src/wsi.cc.o"
+}
+]
