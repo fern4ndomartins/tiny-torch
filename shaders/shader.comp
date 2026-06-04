@@ -1,0 +1,8 @@
+#version 450 core
+
+// Nothing fancy – just a no-op compute shader that compiles
+layout(local_size_x = 1, local_size_y = 1, local_size_z = 1) in;
+
+void main() {
+    // Do absolutely nothing
+}
